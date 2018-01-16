@@ -4,9 +4,8 @@ import './index.css';
 
 function Square(props) {
     return (
-        <button className="square" onClick={props.onClick}>
-            {props.value}
-        </button>
+        <input type='text' className="square" onClick={props.onClick} value={props.value}>
+        </input>
     );
 }
 

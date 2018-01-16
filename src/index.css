@@ -1,5 +1,13 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.square {
+  height: 100px;
+  width: 100px;
+  font-size: 32px;
+  border: 1px solid black;
+  color: transparent;
+  text-shadow: 0 0 0 black;
+  text-align: center;
+}
+
+.square:focus {
+  outline: none;
 }
